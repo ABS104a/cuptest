@@ -7,7 +7,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		
-		new Compare().search( 100, 102, 5);
+		new Compare().search( 5, 3, 4);
 	}
 
 }

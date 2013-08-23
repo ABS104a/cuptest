@@ -57,7 +57,7 @@ public class Compare {
 		return result;
 	}
 	
-	public String getStrings(int actions){
+	public String getString(int actions){
 
 		switch(actions){
 		case A_FULL:
@@ -130,7 +130,7 @@ public class Compare {
 			//Œ‹‰Ê‚ªo‚Ä‚¢‚éê‡
 			LinkedList<String> resultStrings = new LinkedList<String>();
 			while(tmpHolder.getRootHolder() != null){
-				resultStrings.push(getStrings(tmpHolder.getPostion()));
+				resultStrings.push(getString(tmpHolder.getPostion()));
 				tmpHolder = tmpHolder.getRootHolder();
 			}
 			while(resultStrings.size() > 0){
