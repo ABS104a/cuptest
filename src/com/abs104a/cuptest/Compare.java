@@ -3,6 +3,10 @@ package com.abs104a.cuptest;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+import com.abs104a.cuptest.data.CompareHolder;
+import com.abs104a.cuptest.data.Cup;
+import com.abs104a.cuptest.data.MapData;
+
 public class Compare {
 
 	//Å‘åPATTERN”

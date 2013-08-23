@@ -1,4 +1,5 @@
-package com.abs104a.cuptest;
+package com.abs104a.cuptest.data;
+
 
 public final class CompareHolder {
 	
